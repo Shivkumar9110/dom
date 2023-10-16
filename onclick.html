@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnClick</title>
+  <style>
+    body{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    button{
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+    <button onclick="fun()" id="button">Submit</button>     
+    <script>
+      
+       function fun(){
+          document.getElementById("button").innerText ="Sucess";
+          document.getElementById("button").style.color="gray"
+          document.getElementById("button").style.background ="yellow"
+
+       }
+       
+    </script>
+</html>
